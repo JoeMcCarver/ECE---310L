@@ -1,0 +1,54 @@
+bject files
+*.o
+*.ko
+*.obj
+*.elf
+*.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+
+# Vim stuff
+*.sw[a-p]
+
+# Mac stuff
+*.DS_Store
+*.DS*
+.DS_Store
+Icon
+Icon*
+*Icon
+
+# Eclipse stuff
+*.metadata
+*.recommenders
+*.classpath
+*.settings
+*.project
+org.ec*
+*.install*
+*.ini
+.metadata/*
+.plugins/*
+
