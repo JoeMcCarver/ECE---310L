@@ -36,7 +36,7 @@ Vs4 = NMOS_Vt15(3,:);
 t = [t1;t2;t3;t4];
 Vd = [Vd1;Vd2;Vd3;Vd4];
 Vs = [Vs1;Vs2;Vs3;Vs4];
-Id = (Vd./10);
+Id = (Vs./10);
 
 xmin = 0.1; xmax = 0.42; ymin = 0; ymax = .16;
 
@@ -47,11 +47,11 @@ subplot(2,1,1)
 waterfall(Id)
 
 subplot(2,1,2)
-waterfall(Vs)
+waterfall(Vd)
 rotate3d
 
 figure 
-waterfall(Vs,Id), rotate3d
+waterfall(Vd,Id), rotate3d
 %%
 
 figure

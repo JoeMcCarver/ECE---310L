@@ -28,7 +28,7 @@ Id = 0.5:0.5:10;
 % xmin = 0.1; xmax = 0.42; ymin = 0; ymax = .16;
 
 figure
-plot(Id,Vs(1,:),Id,Vs(2,:),Id,Vs(3,:),Id,Vs(4,:)), grid
+plot(Vs(1,:),Id,Vs(2,:),Id,Vs(3,:),Id,Vs(4,:),Id), grid
 
 % figure
 % for i=1:4
